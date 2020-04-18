@@ -1,0 +1,32 @@
+{
+  "name": "slackbot-node",
+  "version": "1.0.0",
+  "description": "A bot for your slack workspace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "star": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmaliaCaldare/slackbot-node.js.git"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "Amalia Caldare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmaliaCaldare/slackbot-node.js/issues"
+  },
+  "homepage": "https://github.com/AmaliaCaldare/slackbot-node.js#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "slackbots": "^1.2.0",
+    "yargs": "^15.3.1"
+  }
+}
